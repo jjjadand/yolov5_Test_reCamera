@@ -1,0 +1,363 @@
+Sections:
+ID   TYPE      NAME                     SIZE        OFFSET      MD5
+000  weight    weight                   7616080     0           eb699f8c0dc3224c686c832a0f5c3968
+001  cmdbuf    subfunc_0                1268112     7616080     e9eda6dad5b55e45005a0745332cf3fd
+
+WeightMap:
+ID   OFFSET    SIZE      TYPE    N    C    H    W    NAME
+000  1984880   256       int8    1    1    16   16   images_preprocess_lut_images_preprocess_table
+001  985920    288       int8    1    32   1    9    122_Conv_bias_packed
+002  1977968   4608      int8    1    32   36   4    122_Conv_filter_reordered
+003  4198512   256       int8    1    1    1    256  124_Mul_table
+004  2582896   576       int8    1    64   1    9    125_Conv_bias_packed
+005  4059696   18432     int8    1    64   9    32   125_Conv_filter_reordered
+006  1990512   256       int8    1    1    1    256  127_Mul_table
+007  1966208   288       int8    1    32   1    9    128_Conv_bias_packed
+008  1987952   2048      int8    1    32   1    64   128_Conv_filter_reordered
+009  6085776   256       int8    1    1    1    256  130_Mul_table
+010  1960480   288       int8    1    32   1    9    131_Conv_bias_packed
+011  1976944   1024      int8    1    32   1    32   131_Conv_filter_reordered
+012  2845872   256       int8    1    1    1    256  133_Mul_table
+013  4158448   18432     bf16    1    32   9    32   134_Conv_filter_reordered
+014  1894560   128       uint16  2    32   1    1    134_Conv_bias_reordered
+015  4276144   512       bf16    1    1    32   8    136_Mul136_Mul_slope_table_bf16
+016  1604192   512       bf16    1    1    32   8    136_Mul136_Mul_slope_slope_table_bf16
+017  5017904   288       int8    1    32   1    9    138_Conv_bias_packed
+018  4198768   2048      int8    1    32   1    64   138_Conv_filter_reordered
+019  4201072   256       int8    1    1    1    256  140_Mul_table
+020  4202416   8192      bf16    1    64   1    64   142_Conv_filter_reordered
+021  4078128   256       uint16  2    64   1    1    142_Conv_bias_reordered
+022  4276144   512       bf16    1    1    32   8    144_Mul144_Mul_slope_table_bf16
+023  1604192   512       bf16    1    1    32   8    144_Mul144_Mul_slope_slope_table_bf16
+024  5018768   147456    bf16    1    128  9    64   145_Conv_filter_reordered
+025  4078896   512       uint16  2    128  1    1    145_Conv_bias_reordered
+026  4276144   512       bf16    1    1    32   8    147_Mul147_Mul_slope_table_bf16
+027  1604192   512       bf16    1    1    32   8    147_Mul147_Mul_slope_slope_table_bf16
+028  1968160   576       int8    1    64   1    9    148_Conv_bias_packed
+029  1968752   8192      int8    1    64   1    128  148_Conv_filter_reordered
+030  2583472   256       int8    1    1    1    256  150_Mul_table
+031  5018192   576       int8    1    64   1    9    151_Conv_bias_packed
+032  4079408   4096      int8    1    64   1    64   151_Conv_filter_reordered
+033  1893152   256       int8    1    1    1    256  153_Mul_table
+034  1884384   576       int8    1    64   1    9    154_Conv_bias_packed
+035  1566176   36864     int8    1    64   9    64   154_Conv_filter_reordered
+036  4278960   256       int8    1    1    1    256  156_Mul_table
+037  1172768   576       int8    1    64   1    9    158_Conv_bias_packed
+038  4088816   4096      int8    1    64   1    64   158_Conv_filter_reordered
+039  1960224   256       int8    1    1    1    256  160_Mul_table
+040  5390544   576       int8    1    64   1    9    161_Conv_bias_packed
+041  1135328   36864     int8    1    64   9    64   161_Conv_filter_reordered
+042  1967648   256       int8    1    1    1    256  163_Mul_table
+043  4201584   576       int8    1    64   1    9    165_Conv_bias_packed
+044  1884960   8192      int8    1    64   1    128  165_Conv_filter_reordered
+045  1990256   256       int8    1    1    1    256  167_Mul_table
+046  1133664   1152      int8    1    128  1    9    169_Conv_bias_packed
+047  1549536   16384     int8    1    128  1    128  169_Conv_filter_reordered
+048  1565920   256       int8    1    1    1    256  171_Mul_table
+049  1985648   2304      int8    1    256  1    9    172_Conv_bias_packed
+050  1233632   294912    int8    1    256  9    128  172_Conv_filter_reordered
+051  1985392   256       int8    1    1    1    256  174_Mul_table
+052  2846128   1152      int8    1    128  1    9    175_Conv_bias_packed
+053  6294352   32768     int8    1    128  1    256  175_Conv_filter_reordered
+054  1967904   256       int8    1    1    1    256  177_Mul_table
+055  1735776   1152      int8    1    128  1    9    178_Conv_bias_packed
+056  1213792   16384     int8    1    128  1    128  178_Conv_filter_reordered
+057  6089744   256       int8    1    1    1    256  180_Mul_table
+058  1230176   1152      int8    1    128  1    9    181_Conv_bias_packed
+059  986208    147456    int8    1    128  9    128  181_Conv_filter_reordered
+060  1134816   256       int8    1    1    1    256  183_Mul_table
+061  1893408   1152      int8    1    128  1    9    185_Conv_bias_packed
+062  1173344   16384     int8    1    128  1    128  185_Conv_filter_reordered
+063  4279216   256       int8    1    1    1    256  187_Mul_table
+064  2581744   1152      int8    1    128  1    9    188_Conv_bias_packed
+065  4279472   147456    int8    1    128  9    128  188_Conv_filter_reordered
+066  4078384   256       int8    1    1    1    256  190_Mul_table
+067  5016752   1152      int8    1    128  1    9    192_Conv_bias_packed
+068  4176880   16384     int8    1    128  1    128  192_Conv_filter_reordered
+069  5313680   256       int8    1    1    1    256  194_Mul_table
+070  5318736   1152      int8    1    128  1    9    195_Conv_bias_packed
+071  5166224   147456    int8    1    128  9    128  195_Conv_filter_reordered
+072  4088304   256       int8    1    1    1    256  197_Mul_table
+073  6086032   1152      int8    1    128  1    9    199_Conv_bias_packed
+074  2847280   32768     int8    1    128  1    256  199_Conv_filter_reordered
+075  5320144   256       int8    1    1    1    256  201_Mul_table
+076  1982576   2304      int8    1    256  1    9    203_Conv_bias_packed
+077  5320400   65536     int8    1    256  1    256  203_Conv_filter_reordered
+078  4200816   256       int8    1    1    1    256  205_Mul_table
+079  5385936   4608      int8    1    512  1    9    206_Conv_bias_packed
+080  2880048   1179648   int8    1    512  9    256  206_Conv_filter_reordered
+081  5393936   256       int8    1    1    1    256  208_Mul_table
+082  5394192   2304      int8    1    256  1    9    209_Conv_bias_packed
+083  5954704   131072    int8    1    256  1    512  209_Conv_filter_reordered
+084  6087184   256       int8    1    1    1    256  211_Mul_table
+085  6087440   2304      int8    1    256  1    9    212_Conv_bias_packed
+086  4092912   65536     int8    1    256  1    256  212_Conv_filter_reordered
+087  7459536   256       int8    1    1    1    256  214_Mul_table
+088  6090000   2304      int8    1    256  1    9    215_Conv_bias_packed
+089  1990768   589824    int8    1    256  9    256  215_Conv_filter_reordered
+090  5319888   256       int8    1    1    1    256  217_Mul_table
+091  6092304   2304      int8    1    256  1    9    219_Conv_bias_packed
+092  6096912   131072    int8    1    256  1    512  219_Conv_filter_reordered
+093  6096400   256       int8    1    1    1    256  221_Mul_table
+094  7610320   4608      int8    1    512  1    9    223_Conv_bias_packed
+095  6327120   262144    int8    1    512  1    512  223_Conv_filter_reordered
+096  6589264   256       int8    1    1    1    256  225_Mul_table
+097  5391120   2304      int8    1    256  1    9    226_Conv_bias_packed
+098  6589520   131072    int8    1    256  1    512  226_Conv_filter_reordered
+099  4088560   256       int8    1    1    1    256  228_Mul_table
+100  1208928   4608      int8    1    512  1    9    233_Conv_bias_packed
+101  5396496   524288    int8    1    512  1    1024 233_Conv_filter_reordered
+102  4202160   256       int8    1    1    1    256  235_Mul_table
+103  1544928   2304      int8    1    256  1    9    236_Conv_bias_packed
+104  6738128   131072    int8    1    256  1    512  236_Conv_filter_reordered
+105  6869456   256       int8    1    1    1    256  238_Mul_table
+106  7459792   1024      int8    1    256  2    2    243_Resize_filter_reordered
+107  7460816   1280      int8    1    256  1    5    243_Resize_bias_packed
+108  2580592   1152      int8    1    128  1    9    245_Conv_bias_packed
+109  6228560   65536     int8    1    128  1    512  245_Conv_filter_reordered
+110  7462096   256       int8    1    1    1    256  247_Mul_table
+111  6094608   1152      int8    1    128  1    9    248_Conv_bias_packed
+112  1528544   16384     int8    1    128  1    128  248_Conv_filter_reordered
+113  6869200   256       int8    1    1    1    256  250_Mul_table
+114  6736976   1152      int8    1    128  1    9    251_Conv_bias_packed
+115  7462608   147456    int8    1    128  9    128  251_Conv_filter_reordered
+116  1990000   256       int8    1    1    1    256  253_Mul_table
+117  1966496   1152      int8    1    128  1    9    254_Conv_bias_packed
+118  4210608   65536     int8    1    128  1    512  254_Conv_filter_reordered
+119  7462352   256       int8    1    1    1    256  256_Mul_table
+120  1547232   2304      int8    1    256  1    9    258_Conv_bias_packed
+121  1894688   65536     int8    1    256  1    256  258_Conv_filter_reordered
+122  7610064   256       int8    1    1    1    256  260_Mul_table
+123  7614928   1152      int8    1    128  1    9    261_Conv_bias_packed
+124  5921936   32768     int8    1    128  1    256  261_Conv_filter_reordered
+125  1985136   256       int8    1    1    1    256  263_Mul_table
+126  5393424   512       int8    1    128  2    2    268_Resize_filter_reordered
+127  6095760   640       int8    1    128  1    5    268_Resize_bias_packed
+128  6227984   576       int8    1    64   1    9    270_Conv_bias_packed
+129  6720592   16384     int8    1    64   1    256  270_Conv_filter_reordered
+130  6294096   256       int8    1    1    1    256  272_Mul_table
+131  1172192   576       int8    1    64   1    9    273_Conv_bias_packed
+132  4194416   4096      int8    1    64   1    64   273_Conv_filter_reordered
+133  985664    256       int8    1    1    1    256  275_Mul_table
+134  1965632   576       int8    1    64   1    9    276_Conv_bias_packed
+135  948800    36864     int8    1    64   9    64   276_Conv_filter_reordered
+136  948544    256       int8    1    1    1    256  278_Mul_table
+137  947968    576       int8    1    64   1    9    279_Conv_bias_packed
+138  931584    16384     int8    1    64   1    256  279_Conv_filter_reordered
+139  929024    256       int8    1    1    1    256  281_Mul_table
+140  927616    1152      int8    1    128  1    9    283_Conv_bias_packed
+141  911232    16384     int8    1    128  1    128  283_Conv_filter_reordered
+142  4078640   256       int8    1    1    1    256  285_Mul_table
+143  910080    1152      int8    1    128  1    9    286_Conv_bias_packed
+144  762624    147456    int8    1    128  9    128  286_Conv_filter_reordered
+145  762368    256       int8    1    1    1    256  288_Mul_table
+146  761216    1152      int8    1    128  1    9    290_Conv_bias_packed
+147  728448    32768     int8    1    128  1    256  290_Conv_filter_reordered
+148  728192    256       int8    1    1    1    256  292_Mul_table
+149  1603040   1152      int8    1    128  1    9    293_Conv_bias_packed
+150  711808    16384     int8    1    128  1    128  293_Conv_filter_reordered
+151  711552    256       int8    1    1    1    256  295_Mul_table
+152  5920784   1152      int8    1    128  1    9    296_Conv_bias_packed
+153  1736928   147456    int8    1    128  9    128  296_Conv_filter_reordered
+154  711296    256       int8    1    1    1    256  298_Mul_table
+155  4193264   1152      int8    1    128  1    9    299_Conv_bias_packed
+156  678528    32768     int8    1    128  1    256  299_Conv_filter_reordered
+157  678272    256       int8    1    1    1    256  301_Mul_table
+158  675968    2304      int8    1    256  1    9    303_Conv_bias_packed
+159  610432    65536     int8    1    256  1    256  303_Conv_filter_reordered
+160  4078640   256       int8    1    1    1    256  305_Mul_table
+161  1231328   2304      int8    1    256  1    9    306_Conv_bias_packed
+162  4426928   589824    int8    1    256  9    256  306_Conv_filter_reordered
+163  610176    256       int8    1    1    1    256  308_Mul_table
+164  607872    2304      int8    1    256  1    9    310_Conv_bias_packed
+165  1604704   131072    int8    1    256  1    512  310_Conv_filter_reordered
+166  607616    256       int8    1    1    1    256  312_Mul_table
+167  4276656   2304      int8    1    256  1    9    313_Conv_bias_packed
+168  542080    65536     int8    1    256  1    256  313_Conv_filter_reordered
+169  1213536   256       int8    1    1    1    256  315_Mul_table
+170  929280    2304      int8    1    256  1    9    316_Conv_bias_packed
+171  6869712   589824    int8    1    256  9    256  316_Conv_filter_reordered
+172  928768    256       int8    1    1    1    256  318_Mul_table
+173  539776    2304      int8    1    256  1    9    319_Conv_bias_packed
+174  408704    131072    int8    1    256  1    512  319_Conv_filter_reordered
+175  4201328   256       int8    1    1    1    256  321_Mul_table
+176  1961024   4608      int8    1    512  1    9    323_Conv_bias_packed
+177  2583728   262144    int8    1    512  1    512  323_Conv_filter_reordered
+178  6096656   256       int8    1    1    1    256  325_Mul_table
+179  406400    2295      int8    1    255  1    9    326_Conv_bias_packed
+180  373760    32640     int8    1    255  1    128  326_Conv_filter_reordered
+181  371200    256       int8    1    1    1    256  435_Sigmoid_table
+182  1960768   256       int8    1    1    1    256  442_Mul_table
+183  1968736   2         bf16    1    1    1    1    444_Sub444_Sub_444_Sub_const_val_bf16
+184  294400    76800     bf16    1    3    80   160  445_Add404_bf16
+185  1960768   256       int8    1    1    1    256  447_Mul_table
+186  1960768   256       int8    1    1    1    256  454_Mul_table
+187  217600    76800     bf16    1    3    80   160  457_Mul433_bf16
+188  371456    2295      int8    1    255  1    9    474_Conv_bias_packed
+189  152320    65280     int8    1    255  1    256  474_Conv_filter_reordered
+190  152064    256       int8    1    1    1    256  583_Sigmoid_table
+191  1960768   256       int8    1    1    1    256  590_Mul_table
+192  1968736   2         bf16    1    1    1    1    592_Sub592_Sub_592_Sub_const_val_bf16
+193  1189728   19200     bf16    1    3    40   80   593_Add552_bf16
+194  1960768   256       int8    1    1    1    256  595_Mul_table
+195  1960768   256       int8    1    1    1    256  602_Mul_table
+196  132864    19200     bf16    1    3    40   80   605_Mul581_bf16
+197  130560    2295      int8    1    255  1    9    622_Conv_bias_packed
+198  0         130560    int8    1    255  1    512  622_Conv_filter_reordered
+199  1135072   256       int8    1    1    1    256  731_Sigmoid_table
+200  1960768   256       int8    1    1    1    256  738_Mul_table
+201  1968736   2         bf16    1    1    1    1    740_Sub740_Sub_740_Sub_const_val_bf16
+202  4083504   4800      bf16    1    3    20   40   741_Add700_bf16
+203  1960768   256       int8    1    1    1    256  743_Mul_table
+204  1960768   256       int8    1    1    1    256  750_Mul_table
+205  5313936   4800      bf16    1    3    20   40   753_Mul729_bf16
+
+Program #0
+    batch_num   : 0
+    private_gmem_size: 0
+    shared_gmem_size: 8568800
+    inputs      : images_raw
+    outputs     : output_Concat_f32
+    routines    :
+     #00  tpu
+        inputs  : images_raw
+        outputs : output_Concat_f32
+        section : subfunc_0
+
+    tensor_map  :
+        ID   OFFSET      TYPE  N    C    H    W    QSCALE     MEM     NAME
+        000  0           uint8 1    640  640  3    1.000000   io_mem  images_raw
+        001  1228800     uint8 1    1    640  1920 1.000000   shared  images_raw_preprocess_csc_slice
+        002  1228800     uint8 1    640  640  3    1.000000   shared  images_raw_preprocess_csc
+        003  0           uint8 1    3    640  640  1.000000   shared  images_preprocess_transpose
+        004  3276800     int8  1    3    640  640  0.007874   shared  images_preprocess_lut
+        005  0           int8  1    32   320  320  0.295359   shared  124_Mul
+        006  3276800     int8  1    64   160  160  0.316702   shared  127_Mul
+        007  6553600     int8  1    32   160  160  0.032857   shared  130_Mul
+        008  4915200     bf16  1    32   160  160  1.000000   shared  133_Mul134_Conv_bf16
+        009  0           int8  1    32   160  160  0.121141   shared  137_Add
+        010  819200      int8  1    32   160  160  0.121141   shared  140_Mul
+        011  0           int8  1    64   160  160  0.121141   shared  141_Concat
+        012  3276800     bf16  1    64   160  160  1.000000   shared  141_Concat142_Conv_bf16
+        013  0           bf16  1    64   160  160  1.000000   shared  144_Mul
+        014  3276800     bf16  1    128  80   80   1.000000   shared  145_Conv
+        015  819200      int8  1    128  80   80   0.039390   shared  147_Mul148_Conv_si8
+        016  409600      int8  1    64   80   80   0.011226   shared  150_Mul
+        017  1638400     int8  1    64   80   80   0.047696   shared  153_Mul
+        018  2048000     int8  1    64   80   80   0.024273   shared  157_Add
+        019  0           int8  1    64   80   80   0.041986   shared  158_Conv
+        020  1638400     int8  1    64   80   80   0.048312   shared  161_Conv
+        021  0           int8  1    64   80   80   0.048706   shared  164_Add
+        022  409600      int8  1    64   80   80   0.048706   shared  167_Mul
+        023  0           int8  1    128  80   80   0.048706   shared  168_Concat
+        024  1638400     int8  1    128  80   80   0.030274   shared  171_Mul
+        025  0           int8  1    256  40   40   0.063787   shared  172_Conv
+        026  1228800     int8  1    256  40   40   0.033977   shared  174_Mul
+        027  819200      int8  1    128  40   40   0.014901   shared  177_Mul
+        028  409600      int8  1    128  40   40   0.059924   shared  178_Conv
+        029  0           int8  1    128  40   40   0.055917   shared  181_Conv
+        030  614400      int8  1    128  40   40   0.020033   shared  184_Add
+        031  204800      int8  1    128  40   40   0.051305   shared  185_Conv
+        032  0           int8  1    128  40   40   0.045381   shared  188_Conv
+        033  204800      int8  1    128  40   40   0.038236   shared  191_Add
+        034  409600      int8  1    128  40   40   0.051928   shared  192_Conv
+        035  0           int8  1    128  40   40   0.067552   shared  195_Conv
+        036  819200      int8  1    256  40   40   0.040043   shared  205_Mul
+        037  1433600     int8  1    512  20   20   0.061178   shared  206_Conv
+        038  1228800     int8  1    512  20   20   0.040237   shared  208_Mul
+        039  0           int8  1    256  20   20   0.021298   shared  211_Mul
+        040  1536000     int8  1    256  20   20   0.066371   shared  214_Mul
+        041  1433600     int8  1    256  20   20   0.100084   shared  215_Conv
+        042  614400      int8  1    256  20   20   0.067261   shared  218_Add
+        043  716800      int8  1    256  20   20   0.067261   shared  221_Mul
+        044  614400      int8  1    512  20   20   0.067261   shared  222_Concat
+        045  409600      int8  1    512  20   20   0.084654   shared  223_Conv
+        046  0           int8  1    256  20   20   0.058766   shared  228_Mul
+        047  102400      int8  1    256  20   20   0.058766   shared  229_MaxPool
+        048  204800      int8  1    256  20   20   0.058766   shared  230_MaxPool
+        049  307200      int8  1    256  20   20   0.058766   shared  231_MaxPool
+        050  0           int8  1    1024 20   20   0.058766   shared  232_Concat
+        051  409600      int8  1    512  20   20   0.062089   shared  233_Conv
+        052  3481600     int8  1    256  20   20   0.045869   shared  238_Mul
+        053  0           int8  1    512  40   40   0.040043   shared  244_Concat
+        054  1228800     int8  1    128  40   40   0.053762   shared  248_Conv
+        055  819200      int8  1    128  40   40   0.047794   shared  251_Conv
+        056  3276800     int8  1    128  40   40   0.033893   shared  263_Mul
+        057  0           int8  1    256  80   80   0.030274   shared  269_Concat
+        058  2867200     int8  1    64   80   80   0.018696   shared  272_Mul
+        059  2457600     int8  1    64   80   80   0.027243   shared  275_Mul
+        060  1638400     int8  1    128  80   80   0.136729   shared  285_Mul
+        061  0           int8  1    256  40   40   0.037836   shared  289_Concat
+        062  614400      int8  1    128  40   40   0.030711   shared  295_Mul
+        063  409600      int8  1    128  40   40   0.082694   shared  296_Conv
+        064  7548000     int8  1    256  40   40   0.136266   shared  305_Mul
+        065  0           int8  1    256  20   20   0.056674   shared  306_Conv
+        066  204800      int8  1    512  20   20   0.046014   shared  309_Concat
+        067  102400      int8  1    256  20   20   0.073095   shared  310_Conv
+        068  0           int8  1    256  20   20   0.044435   shared  315_Mul
+        069  409600      int8  1    256  20   20   0.090067   shared  316_Conv
+        070  0           int8  1    256  20   20   0.054139   shared  318_Mul
+        071  102400      int8  1    256  20   20   0.054139   shared  321_Mul
+        072  0           int8  1    512  20   20   0.054139   shared  322_Concat
+        073  7957600     int8  1    512  20   20   0.109847   shared  323_Conv
+        074  8364000     int8  1    512  20   20   0.087268   shared  325_Mul
+        075  0           int8  1    255  80   80   0.147911   shared  326_Conv
+        076  0           int8  1    3    85   6400 0.147911   shared  349_Reshape
+        077  1632000     int8  1    3    80   6800 0.147911   shared  350_Transpose
+        078  0           int8  1    3    80   6800 0.007874   shared  435_Sigmoid
+        079  7957600     int8  1    3    80   160  0.007874   shared  440_Slice
+        080  8034400     int8  1    3    80   160  0.015748   shared  442_Mul
+        081  7957600     bf16  1    3    80   160  1.000000   shared  442_Mul444_Sub_bf16
+        082  8034400     bf16  1    3    80   160  1.000000   shared  444_Sub
+        083  7957600     bf16  1    3    80   160  1.000000   shared  445_Add
+        084  8034400     int8  1    3    80   160  0.627514   shared  445_Add447_Mul_si8
+        085  7957600     int8  1    3    80   160  5.020116   shared  447_Mul
+        086  8034400     bf16  1    3    80   160  1.000000   shared  447_Mul463_Concat_bf16
+        087  7957600     int8  1    3    80   160  0.007874   shared  452_Slice
+        088  8111200     int8  1    3    80   160  0.015748   shared  454_Mul
+        089  7957600     bf16  1    3    80   160  1.000000   shared  457_Mul
+        090  3110400     int8  1    3    80   6480 0.007874   shared  462_Slice
+        091  0           bf16  1    3    80   6480 1.000000   shared  462_Slice463_Concat_bf16
+        092  4284000     bf16  1    3    80   6800 1.000000   shared  463_Concat
+        093  4284000     bf16  1    19200 85   1    1.000000   shared  473_Reshape
+        094  0           int8  1    255  40   40   0.121521   shared  474_Conv
+        095  0           int8  1    3    85   1600 0.121521   shared  497_Reshape
+        096  408000      int8  1    3    40   3400 0.121521   shared  498_Transpose
+        097  0           int8  1    3    40   3400 0.007874   shared  583_Sigmoid
+        098  7548000     int8  1    3    40   80   0.007874   shared  588_Slice
+        099  7567200     int8  1    3    40   80   0.015748   shared  590_Mul
+        100  7548000     bf16  1    3    40   80   1.000000   shared  590_Mul592_Sub_bf16
+        101  7567200     bf16  1    3    40   80   1.000000   shared  592_Sub
+        102  7548000     bf16  1    3    40   80   1.000000   shared  593_Add
+        103  7567200     int8  1    3    40   80   0.313301   shared  593_Add595_Mul_si8
+        104  7576800     int8  1    3    40   80   5.012824   shared  595_Mul
+        105  7548000     int8  1    3    40   80   0.007874   shared  600_Slice
+        106  7567200     int8  1    3    40   80   0.015748   shared  602_Mul
+        107  7548000     bf16  1    3    40   80   1.000000   shared  605_Mul
+        108  7567200     int8  1    3    40   80   0.313739   shared  605_Mul611_Concat_si8
+        109  408000      int8  1    3    40   3240 0.007874   shared  610_Slice
+        110  0           int8  1    3    40   3400 0.313739   shared  611_Concat
+        111  0           int8  1    4800 85   1    0.313739   shared  621_Reshape
+        112  7548000     bf16  1    4800 85   1    1.000000   shared  621_Reshapeoutput_Concat_bf16
+        113  0           int8  1    255  20   20   0.117068   shared  622_Conv
+        114  0           int8  1    3    85   400  0.117068   shared  645_Reshape
+        115  102000      int8  1    3    20   1700 0.117068   shared  646_Transpose
+        116  0           int8  1    3    20   1700 0.007874   shared  731_Sigmoid
+        117  102000      int8  1    3    20   40   0.007874   shared  736_Slice
+        118  106800      int8  1    3    20   40   0.015748   shared  738_Mul
+        119  102000      bf16  1    3    20   40   1.000000   shared  738_Mul740_Sub_bf16
+        120  106800      bf16  1    3    20   40   1.000000   shared  740_Sub
+        121  102000      bf16  1    3    20   40   1.000000   shared  741_Add
+        122  106800      int8  1    3    20   40   0.154434   shared  741_Add743_Mul_si8
+        123  102000      int8  1    3    20   40   4.941876   shared  743_Mul
+        124  296400      bf16  1    3    20   40   1.000000   shared  743_Mul759_Concat_bf16
+        125  104400      int8  1    3    20   40   0.007874   shared  748_Slice
+        126  102000      int8  1    3    20   40   0.015748   shared  750_Mul
+        127  291600      bf16  1    3    20   40   1.000000   shared  753_Mul
+        128  194400      int8  1    3    20   1620 0.007874   shared  758_Slice
+        129  0           bf16  1    3    20   1620 1.000000   shared  758_Slice759_Concat_bf16
+        130  8364000     bf16  1    3    20   1700 1.000000   shared  759_Concat
+        131  8364000     bf16  1    1200 85   1    1.000000   shared  769_Reshape
+        132  0           bf16  1    25200 85   1    1.000000   shared  output_Concat
+        133  0           fp32  1    25200 85   1    1.000000   io_mem  output_Concat_f32
+

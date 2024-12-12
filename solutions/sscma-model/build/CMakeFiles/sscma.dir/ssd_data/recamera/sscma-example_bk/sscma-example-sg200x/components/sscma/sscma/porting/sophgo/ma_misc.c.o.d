@@ -1,0 +1,19 @@
+CMakeFiles/sscma.dir/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/components/sscma/sscma/porting/sophgo/ma_misc.c.o: \
+ /ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/components/sscma/sscma/porting/sophgo/ma_misc.c \
+ /ssd_data/sg200x_sdk/sg2002_recamera_emmc/buildroot-2021.05/output/cvitek_CV181X_musl_riscv64/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h \
+ /ssd_data/sg200x_sdk/sg2002_recamera_emmc/buildroot-2021.05/output/cvitek_CV181X_musl_riscv64/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdarg.h \
+ /ssd_data/sg200x_sdk/sg2002_recamera_emmc/buildroot-2021.05/output/cvitek_CV181X_musl_riscv64/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h \
+ /ssd_data/sg200x_sdk/sg2002_recamera_emmc/buildroot-2021.05/output/cvitek_CV181X_musl_riscv64/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h \
+ /ssd_data/sg200x_sdk/sg2002_recamera_emmc/buildroot-2021.05/output/cvitek_CV181X_musl_riscv64/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h \
+ /ssd_data/sg200x_sdk/sg2002_recamera_emmc/buildroot-2021.05/output/cvitek_CV181X_musl_riscv64/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h \
+ /ssd_data/sg200x_sdk/sg2002_recamera_emmc/buildroot-2021.05/output/cvitek_CV181X_musl_riscv64/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h \
+ /ssd_data/sg200x_sdk/sg2002_recamera_emmc/buildroot-2021.05/output/cvitek_CV181X_musl_riscv64/host/riscv64-buildroot-linux-musl/sysroot/usr/include/time.h \
+ /ssd_data/sg200x_sdk/sg2002_recamera_emmc/buildroot-2021.05/output/cvitek_CV181X_musl_riscv64/host/riscv64-buildroot-linux-musl/sysroot/usr/include/unistd.h \
+ /ssd_data/sg200x_sdk/sg2002_recamera_emmc/buildroot-2021.05/output/cvitek_CV181X_musl_riscv64/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/posix.h \
+ /ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/components/sscma/sscma/porting/sophgo/sg200x/recamera/ma_config_board.h \
+ /ssd_data/sg200x_sdk/sg2002_recamera_emmc/buildroot-2021.05/output/cvitek_CV181X_musl_riscv64/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h \
+ /ssd_data/sg200x_sdk/sg2002_recamera_emmc/buildroot-2021.05/output/cvitek_CV181X_musl_riscv64/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h \
+ /ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/components/sscma/sscma/porting/ma_misc.h \
+ /ssd_data/sg200x_sdk/sg2002_recamera_emmc/buildroot-2021.05/output/cvitek_CV181X_musl_riscv64/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stddef.h \
+ /ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/components/sscma/sscma/core/ma_config_internal.h \
+ /ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/solutions/sscma-model/main/ma_config.h

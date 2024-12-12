@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcjson.a CMakeFiles/cjson.dir/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/components/sscma/3rdparty/json/cJSON/cJSON.c.o CMakeFiles/cjson.dir/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/components/sscma/3rdparty/json/cJSON/cJSON_Utils.c.o
+/usr/bin/ranlib libcjson.a

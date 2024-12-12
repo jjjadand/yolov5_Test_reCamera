@@ -1,0 +1,2 @@
+/usr/bin/ar qc libjpegenc.a CMakeFiles/jpegenc.dir/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/components/sscma/3rdparty/JPEGENC/JPEGENC.cpp.o
+/usr/bin/ranlib libjpegenc.a

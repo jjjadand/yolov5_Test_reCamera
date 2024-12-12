@@ -1,0 +1,14 @@
+/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/solutions/sscma-model/build/CMakeFiles/cjson.dir
+/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/solutions/sscma-model/build/CMakeFiles/jpegenc.dir
+/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/solutions/sscma-model/build/CMakeFiles/sscma.dir
+/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/solutions/sscma-model/build/CMakeFiles/video.dir
+/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/solutions/sscma-model/build/CMakeFiles/main.dir
+/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/solutions/sscma-model/build/CMakeFiles/sscma-model.dir
+/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/solutions/sscma-model/build/CMakeFiles/package.dir
+/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/solutions/sscma-model/build/CMakeFiles/package_source.dir
+/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/solutions/sscma-model/build/CMakeFiles/edit_cache.dir
+/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/solutions/sscma-model/build/CMakeFiles/rebuild_cache.dir
+/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/solutions/sscma-model/build/CMakeFiles/list_install_components.dir
+/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/solutions/sscma-model/build/CMakeFiles/install.dir
+/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/solutions/sscma-model/build/CMakeFiles/install/local.dir
+/ssd_data/recamera/sscma-example_bk/sscma-example-sg200x/solutions/sscma-model/build/CMakeFiles/install/strip.dir
